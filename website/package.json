@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "11tailwind": "tailwind build src/styles/index.css -o src/styles/tailwind.css "
+    "tailwind": "tailwind build src/styles/index.css -o src/styles/tailwind.css "
   },
   "repository": {
     "type": "git",
