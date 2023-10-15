@@ -1,0 +1,54 @@
+{
+  "name": "rentonest",
+  "version": "1.0.0",
+  "description": "Web site and documentation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "dev2": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "11tailwind": "tailwind build src/styles/index.css -o src/styles/tailwind.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miajupiter/rentonest.git"
+  },
+  "keywords": [
+    "nextjs",
+    "reactjs",
+    "mdx",
+    "docs",
+    "nextra"
+  ],
+  "author": "Shaman Coders",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/miajupiter/rentonest/issues"
+  },
+  "homepage": "https://github.com/miajupiter/rentonest#readme",
+  "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "dotenv": "^16.3.1",
+    "flowbite-react": "^0.4.9",
+    "inter-ui": "^3.19.3",
+    "jwt-decode": "^3.1.2",
+    "mdx-mermaid": "^1.3.2",
+    "next": "^13.4.7",
+    "next-mdx-remote": "^4.4.1",
+    "nextra": "^2.8.0",
+    "nextra-theme-docs": "^2.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "remarkable": "^2.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.43.0",
+    "eslint-config-next": "^13.4.7",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  }
+}

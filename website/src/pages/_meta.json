@@ -1,0 +1,19 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "docs": {
+    "title": "Docs",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "signin": {
+    "title": "SignIn",
+    "type":"page",
+    "href": "/auth/signin"
+  }
+}

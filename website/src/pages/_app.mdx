@@ -1,0 +1,16 @@
+import React, { useState } from 'react'
+import '@/styles/index.css'
+
+
+export default function App({ Component, pageProps }) {
+  const [themeType, setThemeType] = useState('dark')
+  const switchThemes = () => {
+    setThemeType((last) => (last === 'dark' ? 'light' : 'dark'))
+  }
+  
+  return (
+    <>
+      <Component {...pageProps} />
+    </>
+  )
+}

@@ -1,0 +1,77 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Poppins SemiBold'), local('PoppinsSemiBold'), url('./Poppins-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('PoppinsRegular'), url('./Poppins-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Poppins Thin'), local('PoppinsThin'), url('./Poppins-Thin.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Poppins Black'), local('PoppinsBlack'), url('./Poppins-Black.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Poppins Bold'), local('PoppinsBold'), url('./Poppins-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('PoppinsMedium'), url('./Poppins-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Poppins ExtraLight'), local('PoppinsExtraLight'), url('./Poppins-ExtraLight.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Poppins Light'), local('PoppinsLight'), url('./Poppins-Light.ttf') format('ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IBMPlexMono Regular'), local('IBMPlexMonoRegular'), url('./IBMPlexMono-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-weight: 1 999;
+  font-family: 'Fira Code';
+  src: local('FiraCode'), url('./FiraCode-VariableFont_wght.ttf') format('truetype-variations');
+}
